@@ -9,4 +9,4 @@ coste = float(input("dime el coste por hora: "))
 
 paga = horas * coste
 
-print(paga)
+print(f"te corresponde de paga:{paga} €")
