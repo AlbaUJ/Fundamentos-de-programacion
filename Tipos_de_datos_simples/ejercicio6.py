@@ -6,7 +6,7 @@
 #suma de los primeros enteros positivos puede ser calculada de la siguiente forma
 
 n = int(input("Dime un numero entero positivo: "))
-suma = n * (n+1) //2
+suma = n * (n+1) //2   # // sirve para quedarse con la parte entera de una division
 
 if n < 0 : 
     print("tiene que ser un numero positivo")

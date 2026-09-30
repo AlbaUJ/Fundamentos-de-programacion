@@ -10,7 +10,7 @@
 
 cantidad = float(input("Dime la cantidad depositada:  "))
 
-cantidad =  cantidad * 1.04  # puede ser * 1.04 o cantidad = cantidad + cantidad * 0.04 (1 es el 100% del dinero)
+cantidad =  cantidad * 1.04  # puede ser * 1.04 o cantidad = cantidad + cantidad * 0.04 (1 es el 100% del dinero)(cantidad x 4/100) 
 print (f"Los ahorros del primer año son  {round (cantidad,2)}")
 
 cantidad =  cantidad * 1.04
