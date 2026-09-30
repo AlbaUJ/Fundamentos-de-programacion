@@ -7,6 +7,7 @@
 #introducida por el usuario. Después el programa debe calcular y mostrar por pantalla
 #la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada
 #cantidad a dos decimales.
+# (interes compuesto)
 
 cantidad = float(input("Dime la cantidad depositada:  "))
 
