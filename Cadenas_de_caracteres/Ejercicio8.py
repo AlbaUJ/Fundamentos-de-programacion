@@ -8,7 +8,8 @@ céntimos del precio introducido
 
 '''
 
-precio = input("Dime el precio de un producto en euros y con dos decimales: ")
-lista = precio.split(".")
+precio = float(input("Dime el precio de un producto en euros y con dos decimales: "))
+precio = round(precio,2)
+lista = str(precio).split(".") # se pone str porque split solo funciona con texto
 
 print (f"Son {lista[0]} euros y {lista[1]} centimos")
