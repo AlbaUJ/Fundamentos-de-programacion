@@ -13,6 +13,6 @@ años = int(input("durante cuantos años: "))
 
 calculo = cantidad # para que la cantidad se pueda incrementar en el bucle
 
-for i in range(1, años + 1 ):
-    calculo = calculo + (calculo  * interes)/100
+for i in range(1, años + 1 ): # recorre desde el 1º año hasta el total de años
+    calculo = calculo + (calculo  * interes)/100 # suma al actual en cada vuelta
     print(f"{i}º año: {calculo:.2f} €" )
