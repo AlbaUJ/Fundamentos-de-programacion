@@ -15,16 +15,19 @@ pizza elegida es vegetariana o no y todos los ingredientes que lleva
 
 tipo = input("¿Quieres una pizza vegetariana? (si/no): ").lower()
 
-
+#VEGETARIANO
 if tipo == "si": 
-    print("Ingredientes vegetarianos: pimientos y tofu")
-    ingrediente = ["pimientos", "tofu"]
-    veget = input("elige solo un ingrediente: ").lower()
-    if veget in ingrediente:
-          print (f"La pizza es vegetariana, y los ingredientes son: tomate, mozzarella y {veget}")
-    else: print ("ingrediente no valido")
+    print("Ingredientes vegetarianos: pimiento y tofu")
+    ingrediente = ["pimiento", "tofu"]
+    verdura = input("elige solo un ingrediente: ").lower()
+    if verdura in ingrediente:
+          print (f"La pizza es vegetariana, y los ingredientes son: tomate, mozzarella y {verdura}")
+    else: 
+        print ("ingrediente no valido")
+
+# NO VEGETARIANO
 elif tipo == "no":
-    print ("Ingredientes no vegetarianos: peperoni, jamón y salmón")
+    print ("Ingredientes no vegetarianos: peperoni, jamon y salmon")
     ingrediente = ["peperoni", "jamon", "salmon"]
     noVeget = input("elige solo un ingrediente: ").lower()
     if noVeget in ingrediente:
