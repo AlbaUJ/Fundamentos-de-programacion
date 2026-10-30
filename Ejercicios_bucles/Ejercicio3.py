@@ -11,7 +11,7 @@ numero = int(input("dime un numero entero positivo: "))
 texto = ""
 
 
-for i in  range (1, numero + 1, 2):
+for i in  range (1, numero + 1, 2): # empieza en 1, acaba en el numero introducido, en cada repeticion i aumenta de 2 en 2 
     texto = texto + str(i) + ","  
 
 print(texto)
