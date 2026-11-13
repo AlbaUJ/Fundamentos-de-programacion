@@ -6,6 +6,6 @@ Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre po
 pantalla.
 
 '''
-asignaturas = "Matemáticas", "Física", "Química", "Historia", "Lengua"
+asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 
 print (asignaturas)
